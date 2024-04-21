@@ -34,6 +34,20 @@ Description: A simple ATM simulator implemented in C++ to demonstrate basic prog
 5. Run the executable file (`main.exe` on Windows or `./atm` on Unix-based systems).
 6. Follow the on-screen prompts to interact with the ATM simulator.
 
+### 3. Hotel Management System Project
+
+Description: A hotel management system implemented in C++ for managing room reservations and food orders.
+
+#### Instructions
+
+1. Clone the repository to your local machine.
+2. Navigate to the `Hotel Management` directory.
+3. Open the `main.cpp` file to view the project code.
+4. Compile the source code using a C++ compiler (e.g., `g++ main.cpp -o hotel`).
+5. Run the executable file (`main.exe` on Windows or `./hotel` on Unix-based systems).
+6. Follow the on-screen prompts to interact with the hotel management system, including options to reserve rooms, place food orders, and view sales and collection details.
+
+
 ## Contributing
 
 Contributions to this repository are welcome! If you have any ideas for new projects or improvements to existing ones, feel free to submit a pull request or open an issue to discuss your suggestions.
