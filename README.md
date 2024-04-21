@@ -41,7 +41,7 @@ Description: A hotel management system implemented in C++ for managing room rese
 #### Instructions
 
 1. Clone the repository to your local machine.
-2. Navigate to the `Hotel Management` directory.
+2. Navigate to the `HMS` directory.
 3. Open the `main.cpp` file to view the project code.
 4. Compile the source code using a C++ compiler (e.g., `g++ main.cpp -o hotel`).
 5. Run the executable file (`main.exe` on Windows or `./hotel` on Unix-based systems).
