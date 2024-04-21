@@ -1,47 +1,27 @@
-# Hotel Management System
+# Automated Teller Machine (ATM) Project
 
 ## Overview
-The Hotel Management System is a simple command-line application developed in C++. It allows users to manage room reservations and food orders in a hotel setting. Users can check room availability, place orders for various food items, and view sales and collection details for the day.
+The Automated Teller Machine (ATM) Project is a simple command-line application developed in C++. It simulates basic ATM functionalities such as checking balance, withdrawing money, and depositing money. Users can interact with the ATM system by entering their password and choosing from a menu of options.
 
 ## Features
-- **Room Management:** Check room availability and make room reservations.
-- **Food Ordering:** Place orders for a variety of food items available in the hotel.
-- **Sales and Collection:** View details of sales and collection for the day.
-
-## File Structure
-- **main.cpp:** Contains the main program code for the Hotel Management System.
+- **Balance Inquiry:** View the current account balance.
+- **Withdrawal:** Withdraw money from the account, with balance validation.
+- **Deposit:** Deposit money into the account.
+- **Security:** Requires a password for access, with an option to retry if the password is incorrect.
 
 ## Usage
 1. **Run the Program:** Compile and run the main.cpp file using a C++ compiler.
-2. **Input Information:** Follow the prompts to input the quantity of items available in the hotel (e.g., rooms, pasta, burgers, etc.).
-3. **Menu Selection:** Choose from the menu options to perform various actions:
-   - Rooms
-   - Pasta
-   - Burger
-   - Noodles
-   - Shake
-   - Chicken-Roll
-   - Information Regarding Sales And Collection
+2. **Menu Selection:** Choose from the menu options to perform various actions:
+   - Balance Inquiry
+   - Withdrawal
+   - Deposit
    - Exit
-4. **Room Management:** Input the number of rooms required to make a reservation.
-5. **Food Ordering:** Input the quantity of food items required to place an order.
-6. **Sales and Collection:** View details of sales and collection for the day.
-
-## Example Usage
-### Room Reservation:
-1. User selects the "Rooms" option from the menu.
-2. Input the number of rooms required.
-3. The system checks availability and confirms the reservation.
-
-### Food Ordering:
-1. User selects the desired food item (e.g., Pasta, Burger, etc.) from the menu.
-2. Input the quantity of the food item required.
-3. The system checks availability and confirms the order.
-
-### Sales and Collection:
-1. User selects the "Information Regarding Sales And Collection" option from the menu.
-2. The system displays details of sales and collection for the day.
+3. **Password Input:** Enter the password to access the account. If the password is incorrect, the user can choose to retry or exit the program.
+4. **Balance Inquiry:** View the current account balance.
+5. **Withdrawal:** Enter the amount to withdraw, with validation to ensure sufficient balance.
+6. **Deposit:** Enter the amount to deposit into the account.
 
 ## Notes
-- Ensure correct input of quantities to avoid errors in reservation and ordering.
-- Use the menu options to navigate through different functionalities of the system.
+- Ensure that the password entered is correct to access the account.
+- Follow the menu options to navigate through different functionalities of the ATM system.
+
